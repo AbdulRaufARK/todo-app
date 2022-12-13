@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#maiList li {
+    display: flex;
+    align-items: center;
+    list-style: decimal;
+    border: 3px solid rgb(207, 35, 35);
+    /* margin-top: 2px; */
+    height: 6vh;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    
+}
+
+
+
+.btn {
+    /* position: absolute; */
+    /* right: 80px; */
+    color: white;
+    background-color: red;
+    width: 70px;
+    height: 40px;
+    border: 2px solid black;
+    /* padding: 5px; */
+    border-radius: 10px;
+    margin: 5px;
+
+
+}
+.btn1 {
+    /* position: absolute; */
+    /* right: 10px; */
+    color: white;
+    background-color: green;
+    width: 70px;
+    height: 40px;
+    border: 2px solid black;
+    /* padding: 5px; */
+    border-radius: 10px;
+    margin: 5px;
+}
+.bt{
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: red;
+}
+.ph{
+    height: 40px;
+    width: 80vw;
+    font-weight: bolder;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-radius: 40px; 
+
+
+}
+.center{
+    background-color: #ff9800;
+    height: 100vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#maiList{
+    flex: 1;
+    width: 80%;
+    margin: auto;
+    overflow-y: scroll;
+    
+}
+#maiList::-webkit-scrollbar
+{
+	width: 10px;
+    background-color: #ff9800;
+	/* background-color: #F5F5F5; */
+}
+
+#maiList::-webkit-scrollbar-thumb
+{
+	background-color: red;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+.header h1{
+    text-align: center;
+    padding: 1rem;
+    background-color: #f67d01;
+    margin-bottom: 1rem;
+}
+.btn-bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 1rem;
+    border-top: 3px solid #f67d01;
+    
+}
